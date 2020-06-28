@@ -1,0 +1,39 @@
+<mat-nav-list>
+    <!-- profile card-->
+    <div class="profile-card">
+        <div class="header">
+            <h2>Samuel</h2>
+            <h4>philFourVerseThirteen</h4>
+        </div>
+        <a routerLink="/">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjE2_dk2eD3yIcAP5a0sNG2O1lCkLY4CNHvw&usqp=CAU" alt="profile-picture"/>
+        </a>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <!-- site links -->
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        <mat-icon color="warn">dashboard</mat-icon>
+         Dashboard
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/posts">
+        <mat-icon color="warn">book</mat-icon>
+         Posts 
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/article">
+        <mat-icon color="warn">article</mat-icon>
+         Article
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+        <mat-icon color="warn">import_contacts</mat-icon>
+         Contacts
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+        <mat-icon color="warn">import_contacts</mat-icon>
+         Leads
+    </a>
+
+
+</mat-nav-list>

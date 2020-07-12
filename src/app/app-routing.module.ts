@@ -8,15 +8,15 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [{
   path: '',
   component: DefaultComponent,
-  children: [
+    children: [
+      {
+      path: '',
+      component: DashboardComponent 
+    },
     {
-    path: '',
-    component: DashboardComponent 
-  },
-  {
-    path: 'posts',
-    component: PostsComponent
-  }]
+      path: 'posts',
+      component: PostsComponent
+    }]
 }
 ];
 
